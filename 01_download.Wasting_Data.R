@@ -6,6 +6,7 @@ boxplot(data$`Average WD (%)`~Transect,data=data, main="not sure what to put her
         xlab="Transect", ylab="Average wasting disease %")
 ```{r, eval=FALSE}
 library(ggplot2)
-boxplot(data$`Average WD (%)`~Transect,data=data, main="not sure what to put here",
+boxplot(data$`Average WD (%)`~Transect,data=data, main="Transect vs. Average Wasting Disease Percent",
         xlab="Transect", ylab="Average wasting disease %")
 ```
+
